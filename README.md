@@ -14,3 +14,8 @@ This is the tooling required to enable Cardano wallets to connect to the dapp.
 
 `store` is the context store which holds user data based on the connected wallet and enables global access in the dapp
 
+deps:
+
+`easy-peasy`
+
+`lucid-cardano`
