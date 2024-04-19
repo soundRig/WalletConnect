@@ -19,3 +19,16 @@ deps:
 `easy-peasy`
 
 `lucid-cardano`
+
+you also need to add this to the `webpack` config
+
+```
+webpack: function (config, options) {
+  config.experiments = {
+			topLevelAwait: true,
+			asyncWebAssembly: true,
+			layers: true, // optional, required with some bundlers/frameworks
+		};
+...
+  },
+```
